@@ -1,14 +1,16 @@
-function Layout ({ children }) {
+import Nav from "../Components/Nav";
+import Footer from "../Components/Footer";
+
+function Layout({ children }) {
   return (
-    <div className="layout">
-      <header>
-        <h1>Mwangaza Melodies</h1>
-      </header>
-      <main>{children}</main>
-      <footer>
-        <p>&copy; 2024 Mwangaza Melodies. All rights reserved.</p>
-      </footer>
-    </div>
+     <div className="min-h-screen flex flex-col">
+
+    <Nav />
+        <main className="flex-1">
+            {children}
+        </main>
+        <Footer/>
+        </div>
   );
 }
 
