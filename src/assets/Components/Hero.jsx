@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import img1 from "../Images/WhatsApp Image 2025-07-25 at 10.03.26 PM.jpeg";
-import img2 from "../Images/WhatsApp Image 2025-07-25 at 10.03.27 PM.jpeg";
-import img3 from "../Images/WhatsApp Image 2025-07-25 at 10.03.32 PM.jpeg";
-import img4 from "../Images/WhatsApp Image 2025-07-25 at 10.03.33 PM.jpeg";
-import img5 from "../Images/WhatsApp Image 2025-07-25 at 10.03.34 PM.jpeg";
+import img1 from "../Images/sop.jpeg";
+import img2 from "../Images/Esther.jpeg";
+import img3 from "../Images/agnes.jpeg";
+import img4 from "../Images/dama.jpeg";
+import img5 from "../Images/group.jpeg";
 
 function Hero() {
   const slides = [img1, img2, img3, img4, img5];

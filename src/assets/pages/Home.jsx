@@ -1,10 +1,15 @@
-import Footer from "../Components/Footer";
-import Nav from "../Components/Nav";
+
 import Hero from "../Components/Hero";
-function Home({ children }) {
+import About from "../Components/About";
+import Gallery from "../Components/Gallery";
+import Music from "../Components/Music";
+function Home() {
   return (
 <div>
   <Hero/>
+  <About/>
+  <Gallery/>
+  <Music/>
 </div>
   );
 }
