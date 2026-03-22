@@ -43,7 +43,7 @@ function Gallery() {
   };
 
   return (
-    <section className="py-16 px-6">
+    <section id="gallery" className="py-16 px-6">
       <h2 className="text-4xl font-bold text-center text-yellow-600 mb-10">
         Our Gallery
       </h2>

@@ -10,6 +10,6 @@ export default defineConfig({
   ],
   server: {
     host: true,        // listen on all network interfaces
-    allowedHosts: ['*'] // allow any host (including tunnels)
+    allowedHosts: ['jammie-summitless-haplessly.ngrok-free.dev'] // allow specific host for tunnels
   }
 })

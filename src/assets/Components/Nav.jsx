@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "../Images/mwanganza.jpg";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ function Nav() {
       <div className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
         
         {/* Logo */}
-        <img src="/src/assets/Images/mwanganza.jpg" alt="Mwangaza Melodies Logo" className="h-20 w-auto" />
+        <img src={logo} alt="Mwangaza Melodies Logo" className="h-20 w-auto" />
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8">
@@ -25,7 +26,7 @@ function Nav() {
           </li>
           <li>
             <a href="#services" className="text-white hover:text-yellow-400 hover:underline transition duration-300">
-              Services
+              Events
             </a>
           </li>
           <li>

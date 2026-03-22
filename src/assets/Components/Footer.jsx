@@ -26,12 +26,36 @@ function Footer() {
           </h3>
 
           <ul className="space-y-2">
-            <li className="hover:text-yellow-500 cursor-pointer">Home</li>
-            <li className="hover:text-yellow-500 cursor-pointer">About</li>
-            <li className="hover:text-yellow-500 cursor-pointer">Gallery</li>
-            <li className="hover:text-yellow-500 cursor-pointer">Music</li>
-            <li className="hover:text-yellow-500 cursor-pointer">Events</li>
-            <li className="hover:text-yellow-500 cursor-pointer">Contact</li>
+            <li>
+              <a href="#home" className="hover:text-yellow-500 transition">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#about" className="hover:text-yellow-500 transition">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#gallery" className="hover:text-yellow-500 transition">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a href="#music" className="hover:text-yellow-500 transition">
+                Music
+              </a>
+            </li>
+            <li>
+              <a href="#events" className="hover:text-yellow-500 transition">
+                Events
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="hover:text-yellow-500 transition">
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -53,23 +77,10 @@ function Footer() {
           </h3>
 
           <div className="flex space-x-4 text-2xl">
-
-            <a href="#" className="hover:text-blue-500 transition">
-              <FaFacebook />
-            </a>
-
-            <a href="#" className="hover:text-red-500 transition">
-              <FaYoutube />
-            </a>
-
-            <a href="#" className="hover:text-pink-500 transition">
-              <FaInstagram />
-            </a>
-
-            <a href="#" className="hover:text-green-500 transition">
-              <FaWhatsapp />
-            </a>
-
+            <a href="#" className="hover:text-blue-500 transition"><FaFacebook /></a>
+            <a href="#" className="hover:text-red-500 transition"><FaYoutube /></a>
+            <a href="#" className="hover:text-pink-500 transition"><FaInstagram /></a>
+            <a href="#" className="hover:text-green-500 transition"><FaWhatsapp /></a>
           </div>
 
         </div>

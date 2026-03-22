@@ -1,7 +1,7 @@
 
     function Music() {
   return (
-    <section className="bg-gray-50 py-16 px-6">
+    <section id="music" className="bg-gray-50 py-16 px-6">
 
       {/* Section Title */}
       <div className="text-center mb-12">
@@ -16,49 +16,64 @@
       </div>
 
       {/* Video Grid */}
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+  {/* Video 1 */}
+  <div className="w-full rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+    <div className="relative w-full aspect-video">
+      <iframe
+        src="https://www.youtube.com/embed/3zO0799O60U"
+        title="YouTube video player"
+        className="absolute top-0 left-0 w-full h-full"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+        referrerPolicy="strict-origin-when-cross-origin"
+      ></iframe>
+    </div>
+    <div className="p-4">
+      <h3 className="font-semibold text-lg">Worship Performance</h3>
+      <p className="text-gray-500 text-sm">Live church worship session</p>
+    </div>
+  </div>
 
-        {/* Video 1 */}
-        <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/3zO0799O60U?" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div className="p-4">
-            <h3 className="font-semibold text-lg">
-              Worship Performance
-            </h3>
-            <p className="text-gray-500 text-sm">
-              Live church worship session
-            </p>
-          </div>
-        </div>
+  {/* Video 2 */}
+  <div className="w-full rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+    <div className="relative w-full aspect-video">
+      <iframe
+        src="https://www.youtube.com/embed/kJ5oWZXx6MU"
+        title="YouTube video player"
+        className="absolute top-0 left-0 w-full h-full"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+        referrerPolicy="strict-origin-when-cross-origin"
+      ></iframe>
+    </div>
+    <div className="p-4">
+      <h3 className="font-semibold text-lg">Gospel Concert</h3>
+      <p className="text-gray-500 text-sm">Choir live performance</p>
+    </div>
+  </div>
 
-        {/* Video 2 */}
-        <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kJ5oWZXx6MU?" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-          <div className="p-4">
-            <h3 className="font-semibold text-lg">
-              Gospel Concert
-            </h3>
-            <p className="text-gray-500 text-sm">
-              Choir live performance
-            </p>
-          </div>
-        </div>
-
-        {/* Video 3 */}
-        <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/du8HSsXpb70?" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div className="p-4">
-            <h3 className="font-semibold text-lg">
-              Special Worship Song
-            </h3>
-            <p className="text-gray-500 text-sm">
-              Inspirational choir music
-            </p>
-          </div>
-        </div>
-
-      </div>
+  {/* Video 3 */}
+  <div className="w-full rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+    <div className="relative w-full aspect-video">
+      <iframe
+        src="https://www.youtube.com/embed/du8HSsXpb70"
+        title="YouTube video player"
+        className="absolute top-0 left-0 w-full h-full"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+        referrerPolicy="strict-origin-when-cross-origin"
+      ></iframe>
+    </div>
+    <div className="p-4">
+      <h3 className="font-semibold text-lg">Special Worship Song</h3>
+      <p className="text-gray-500 text-sm">Inspirational choir music</p>
+    </div>
+  </div>
+</div>
 
       {/* YouTube Button */}
       <div className="text-center mt-12">
@@ -76,5 +91,3 @@
 }
 
 export default Music;
-  
-   
