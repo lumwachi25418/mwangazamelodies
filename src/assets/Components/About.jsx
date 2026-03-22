@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <section className="bg-gradient-to-b from-yellow-50 to-white py-16 px-6">
+    <section id="about" className="bg-gradient-to-b from-yellow-50 to-white py-16 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
         {/* Image Section */}

@@ -26,7 +26,7 @@ function Hero() {
   };
 
   return (
-    <div className="relative w-full overflow-hidden" style={{ minHeight: "700px" }}>
+    <div id="home" className="relative w-full overflow-hidden" style={{ minHeight: "700px" }}>
       {/* Slides */}
       {slides.map((slide, index) => (
         <div
