@@ -44,8 +44,8 @@ function Testimonials() {
             and musically. It is truly a family where we support each other
             and serve God through song."
           </p>
-          <h4 className="font-bold">Esther Randa</h4>
-          <p className="text-sm text-gray-500">Choir Member</p>
+          <h4 className="font-bold">Dr. Joshua Omondi</h4>
+          <p className="text-sm text-gray-500">Choir Director</p>
         </div>
 
         {/* Church Warden */}
@@ -60,8 +60,8 @@ function Testimonials() {
             They continue to bless the church with uplifting music
             during services and special events."
           </p>
-          <h4 className="font-bold">Maina Kimani</h4>
-          <p className="text-sm text-gray-500">Church Warden</p>
+          <h4 className="font-bold">Moses Muigwa</h4>
+          <p className="text-sm text-gray-500">Chairman</p>
         </div>
 
         {/* Congregation Member */}
